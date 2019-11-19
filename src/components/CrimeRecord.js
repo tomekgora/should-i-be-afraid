@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import LikeCounter from "./LIkeCounter.js"
+import LikeCounter from "./LikeCounter.js"
 
 export default class CrimeRecord extends Component {
     render () {
