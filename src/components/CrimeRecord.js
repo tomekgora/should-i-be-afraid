@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import LikeCounter from "./LikeCounter.js";
 import FavoriteButton from "./FavoriteButton.js";
+import CommentForm from "./CommentForm.js";
 
 export default class CrimeRecord extends Component {
   // state =  {
@@ -22,6 +23,7 @@ export default class CrimeRecord extends Component {
 
         <LikeCounter />
         <FavoriteButton />
+        <CommentForm />
 
         {/* Category:, location-type: category-image:
 street.name, outcome_status: category: date: */}
