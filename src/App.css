@@ -15,12 +15,14 @@
 .banner {
   height: 100px;
   color: red;
+  background-color: #0d0e0f;
   text-align: bottom;
   position: fixed;
   top: 0;
   margin-bottom: 0;
   border-style: solid;
-  margin-block: 30px;
+  display: block;
+  z-index: 2
   /* display: block; */
 }
 
