@@ -6,15 +6,18 @@ export default class LikeCounter extends Component {
   };
 
   increment = () => {
-      this.setState({
-          numLikes: this.state.numLikes + 1
-      })
-  }
+    this.setState({
+      numLikes: this.state.numLikes + 1
+    });
+  };
 
   render() {
     return (
       <div>
-        <button onClick={this.increment}>Dislike</button><p>This post has <b>{ this.state.numLikes }</b> dislikes!</p>
+        <button onClick={this.increment}>Dislike</button>
+        <p>
+          This post has <b>{this.state.numLikes}</b> dislikes!
+        </p>
       </div>
     );
   }
