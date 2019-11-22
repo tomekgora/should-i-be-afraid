@@ -1,0 +1,17 @@
+.add-comment {
+  flex: 1;
+  display: flex;
+  border: 1px solid #ccc;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.input textarea {
+  flex: 1;
+  display: flex;
+  border: 1px solid #ccc;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
